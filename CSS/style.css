@@ -152,3 +152,8 @@ footer .title {
 .address.link {
   color: rgba(255, 255, 255, 0.6);
 }
+/* portfolio */
+.button.filter {
+  color: var(--section-title-text-color);
+  background-color: #f5f4fa;
+}
