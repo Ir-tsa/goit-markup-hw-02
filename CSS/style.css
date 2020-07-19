@@ -157,3 +157,23 @@ footer .title {
   color: var(--section-title-text-color);
   background-color: #f5f4fa;
 }
+.card .link {
+  color: var(--title-text-color);
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.text-title {
+  color: var(--primery-text-color);
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+}
+.text-accent {
+  background: rgba(33, 150, 243, 0.9);
+  color: var(--secondery-title-text-color);
+  font-size: 18px;
+  line-height: 1.56;
+  letter-spacing: 0.03em;
+}
