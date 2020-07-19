@@ -14,3 +14,55 @@ body {
 a.link {
   text-decoration: none;
 }
+/* site-nav */
+.logo {
+  color: #000000;
+}
+.accent-logo {
+  color: var(--accent-color);
+}
+.site-nav .link {
+  color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+  color: var(--accent-color);
+}
+.contacts .link {
+  color: var(--primery-text-color);
+}
+.contacts .link:hover,
+.contacts:focus {
+  color: var(--accent-color);
+}
+/* main menu*/
+.section-title {
+  color: var(--title-text-color);
+}
+.title {
+  text-transform: uppercase;
+  color: var(--title-text-color);
+}
+.services .title {
+  color: var(--secondery-title-text-color);
+  background: rgba(47, 48, 58, 0.8);
+}
+/* seclion our team */
+.team {
+  background: #f5f4fa;
+}
+/* footer */
+footer {
+  color: var(--secondery-title-text-color);
+  background: #2f303a;
+  font-style: normal;
+}
+footer .title {
+  color: var(--secondery-title-text-color);
+}
+.logo-fuoter {
+  color: var(--secondery-title-text-color);
+}
+.address.link {
+  color: rgba(255, 255, 255, 0.6);
+}
